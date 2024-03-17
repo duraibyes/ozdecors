@@ -225,3 +225,11 @@ a:hover {
 .kitchen .swiper-wrapper {
     padding: 5px;
 }
+
+.gallery-link {
+    font-weight: 700;
+}
+
+.gallery-link:hover {
+    color: var(--secondary-color);
+}
