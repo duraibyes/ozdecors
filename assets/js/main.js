@@ -252,11 +252,11 @@
         spaceBetween: 10,
       },
       520: {
-        slidesPerView: 3, // Show only one testimonial on smaller screens
+        slidesPerView: 2, // Show only one testimonial on smaller screens
         spaceBetween: 10,
       },
       768: {
-        slidesPerView: 4, // Show only one testimonial on smaller screens
+        slidesPerView: 3, // Show only one testimonial on smaller screens
         spaceBetween: 10,
       },
       992: {
