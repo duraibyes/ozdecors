@@ -2270,7 +2270,8 @@ img.testimonial-img {
 
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
-  height: 100%;
+  height: 300px;
+  width: 100%;
 }
 
 .gallery .gallery-item:hover img {
@@ -2376,6 +2377,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   z-index: -1;
   /* filter: blur(2px); */
   filter: brightness(0.5);
+  background-attachment: fixed;
 }
 
 .about-us .section-title h2 {

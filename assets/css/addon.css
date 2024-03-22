@@ -127,7 +127,7 @@ body[data-aos-duration="700"] [data-aos] {
   left: 0;
   right: 0;
   margin: auto;
-  background: rgb(249 249 249 / 73%);
+  background:rgb(249 249 249 / 77%);
   color: #000;
   min-width: 192px;
   padding: 18px 13px 10px;
@@ -261,17 +261,17 @@ a:hover {
 }
 
 .modern-service::before {
-  background-image: url(../img/bg/pt27.jpeg);
-  content: "";
+  /* background-image: url(../img/bg/pt27.jpeg); */
+  /* content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-  filter: brightness(0.5);
-  background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* z-index: -1;
+  filter: brightness(0.5); */ 
+  /* background-size: cover; */
 }
 
 .modern-service .section-title h2 {
@@ -294,6 +294,7 @@ section#wardrobe::before {
   z-index: -1;
   filter: brightness(0.9);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 section#wardrobe .kitchen-title h2 {
@@ -361,6 +362,7 @@ section#wardrobe .kitchen-title h2 {
   z-index: -1;
   filter: brightness(0.9);
   background-size: contain;
+  background-attachment: fixed;
 }
 
 .service-ac .kitchen-title h2 {
@@ -377,7 +379,7 @@ section#wardrobe .kitchen-title h2 {
   transition: transform 0.3s ease;
 }
 .we-content {
-  padding: 0px 20px;
+  padding: 20px 20px;
 }
 
 .service-electrical {
@@ -401,6 +403,7 @@ section#wardrobe .kitchen-title h2 {
   z-index: -1;
   filter: brightness(0.9);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .service-electrical .kitchen-title h2 {
@@ -408,4 +411,46 @@ section#wardrobe .kitchen-title h2 {
 }
 section#electrical .we-content {
   color: #fff7ea;
+}
+
+
+.card {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.image-container img {
+  transition: transform 0.3s;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px 20px;
+  /* border-radius: 5px; */
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-container:hover .image-title {
+  opacity: 1;
 }
