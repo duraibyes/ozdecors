@@ -265,7 +265,46 @@
       },
     },
   });
-
+  // serviec slice
+    /**
+   * kitchen slider
+   */
+    new Swiper('.service-slider', {
+      speed: 600,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+      slidesPerView: '4',
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        100: {
+          slidesPerView: 1, // Show only one testimonial on smaller screens
+          spaceBetween: 10,
+        },
+        520: {
+          slidesPerView: 2, // Show only one testimonial on smaller screens
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3, // Show only one testimonial on smaller screens
+          spaceBetween: 10,
+        },
+        992: {
+          slidesPerView: 4, // Show two testimonials on medium screens
+          spaceBetween: 20,
+        },
+      },
+    });
   /**
    * Animation on scroll
    */
