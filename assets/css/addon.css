@@ -262,7 +262,7 @@ a:hover {
 }
 
 .modern-service::before {
-  background-image: url(../img/bg/bg7.jpg);
+  background-image: url(../img/bg/paper3.jpg);
     content: "";
     position: absolute;
     top: 0;
@@ -272,7 +272,6 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
     /* filter: brightness(0.8); */
-    filter: blur(3px);
     background-size: cover;
     background-color: red;
 }
@@ -654,4 +653,52 @@ section#electrical .we-content {
 .service-slider .swiper-slide {
   width: 420px !important;
   height: 320px;
+}
+
+button.call_now_btn {
+  padding: 15px 35px;
+  border-radius: 25px;
+  border-color: #f77a34;
+  background: white;
+  color: #f77a34;
+  font-weight: 800;
+}
+
+button.call_now_btn:hover {
+  background: #f77a34;
+  color: white;
+  box-shadow:1px 3px 5px 1px #e8ac54
+}
+
+button.chat_btn {
+  padding: 15px 35px;
+  border-radius: 25px;
+  border-color: #009688;
+  background: white;
+  color: #009688;
+  font-weight: 800;
+  margin-left: 20px;
+}
+button.chat_btn:hover {
+  background: #009688;
+  color: white;
+  box-shadow:1px 3px 5px 1px #53dacd
+}
+
+.connect {
+  position: relative;
+}
+
+.connect::before {
+  background-image: url(../img/bg/paper2.jpg);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.9);
+  background-size: cover;
+  background-attachment: fixed;
 }

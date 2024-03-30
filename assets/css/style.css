@@ -2322,7 +2322,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   ); /* Adjust the color and opacity as needed */
   z-index: -1; /* Ensure the overlay is behind the content */
   /* filter: blur(2px); */
-  filter: brightness(0.8);
+  filter: brightness(0.6);
 }
 
 .clients .section-title h2 {
@@ -2330,7 +2330,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .testimonial-item {
-  box-shadow: 1px 1px 8px 5px var(--secondary-color);
+  box-shadow: 1px 1px 6px 2px #9E9E9E;
 }
 
 .kitchen-title {
