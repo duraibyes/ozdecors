@@ -263,17 +263,17 @@ a:hover {
 
 .modern-service::before {
   background-image: url(../img/bg/paper3.jpg);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-    /* filter: brightness(0.8); */
-    background-size: cover;
-    background-color: red;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  /* filter: brightness(0.8); */
+  background-size: cover;
+  background-color: red;
 }
 
 .modern-service .section-title h2 {
@@ -395,7 +395,7 @@ section#wardrobe .kitchen-title h2 {
   color: var(--secondary-color);
 }
 .service-electrical::before {
-  background-image: url(../img/bg/pt9.jpeg);
+  background-image: url(../img/bg/pt21.jpeg);
   content: "";
   position: absolute;
   top: 0;
@@ -406,6 +406,7 @@ section#wardrobe .kitchen-title h2 {
   filter: brightness(0.9);
   background-size: cover;
   background-attachment: fixed;
+  filter: blur(7px);
 }
 
 .service-electrical .kitchen-title h2 {
@@ -501,10 +502,12 @@ section#electrical .we-content {
   margin-top: 30px;
   font-size: 16px;
   display: inline-block;
-  color: #fff
+  color: #fff;
 }
 
-.banner-white-btn:hover,.banner-white-btn:focus,.banner-white-btn:active {
+.banner-white-btn:hover,
+.banner-white-btn:focus,
+.banner-white-btn:active {
   border-color: var(--primary-color);
 }
 
@@ -667,7 +670,7 @@ button.call_now_btn {
 button.call_now_btn:hover {
   background: #f77a34;
   color: white;
-  box-shadow:1px 3px 5px 1px #e8ac54
+  box-shadow: 1px 3px 5px 1px #e8ac54;
 }
 
 button.chat_btn {
@@ -682,7 +685,7 @@ button.chat_btn {
 button.chat_btn:hover {
   background: #009688;
   color: white;
-  box-shadow:1px 3px 5px 1px #53dacd
+  box-shadow: 1px 3px 5px 1px #53dacd;
 }
 
 .connect {
@@ -701,4 +704,29 @@ button.chat_btn:hover {
   filter: brightness(0.9);
   background-size: cover;
   background-attachment: fixed;
+}
+
+.about-header {
+  position: relative;
+}
+
+.about-header::before {
+  background-image: url(../img/bg/paper2.jpg);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.9);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header-black-bg {
+  background-color: #000 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  padding: 5px;
 }
