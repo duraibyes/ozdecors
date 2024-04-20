@@ -1,0 +1,29 @@
+
+
+/* Media query for mobile devices */
+@media (max-width: 576px) {
+    .home-swiper .swiper-slide img {
+        width: auto;
+    }
+    #about-us {
+        padding: 40px 20px 40px 20px;
+    }
+    #about-us .section-title, #testimonials .section-title {
+        padding-bottom: 0px;
+    }
+    .de_testi blockquote::before {
+        left: 10px;
+    }
+    .testimonials .swiper-slide {
+        padding: 10px;
+    }
+
+}
+
+/* Media query for tablets (e.g., iPad) */
+@media (max-width: 768px) {
+    .testimonials {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
