@@ -605,12 +605,16 @@ section {
   background: var(--primary-color);
   min-height: 40px;
   margin-top: 72px;
+  font-family: Montserrat, sans-serif !important;
+  letter-spacing: 1px;
+  margin-top: 75px;
 }
 
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 500;
   color: #fff;
+  margin-bottom: 0px;
 }
 
 .breadcrumbs ol {
@@ -2380,7 +2384,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   padding-bottom: 20px;
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .kitchen-title h2 {
