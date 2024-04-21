@@ -83,7 +83,7 @@ img.banner-img {
 }
 
 .home-swiper .swiper-slide img {
-  animation: zoomout 15s ease-in-out infinite; /* Adjust animation duration as needed */
+  animation: zoomout 10s ease-in-out infinite; /* Adjust animation duration as needed */
   transform-origin: left center; /* Set the transform origin to the left side */
   width: 120%;
   height: 120%;
