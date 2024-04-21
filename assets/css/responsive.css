@@ -17,6 +17,17 @@
     .testimonials .swiper-slide {
         padding: 10px;
     }
+    .single-working-box-style2 {
+        width: 77%;
+        height: 82%;
+        left: 12%;
+    }
+    .working-style2-area {
+        height: 2250px;
+    }
+    .working-style-bottom {
+        left: 40%;
+    }
 
 }
 

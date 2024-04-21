@@ -247,3 +247,207 @@ blockquote::after {
 .t-item {
   width: 530px !important;
 }
+/* interior sections */
+.working-style2-area {
+  display: block;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 0px 0 110px;
+  margin-top: 110px;
+  z-index: 1;
+  height: 600px;
+}
+.working-style2-content {
+  position: absolute;
+  top: -83px;
+}
+.single-working-box-style2 {
+  position: relative;
+  display: block;
+  width: 25%;
+  float: left;
+}
+.single-working-box-style2 .img-holder {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.single-working-box-style2 .img-holder img {
+  width: 100%;
+  transform: scale(1);
+  transition: all 700ms ease;
+}
+.single-working-box-style2 .static-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 500ms ease 100ms;
+}
+.single-working-box-style2 .static-content .box {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.single-working-box-style2 .static-content .box .inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.single-working-box-style2 .icon-holder {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 60px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-working-box-style2 .text-holder {
+  position: relative;
+  display: block;
+}
+.single-working-box-style2 .icon-holder span::before {
+  display: block;
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 106px;
+}
+.single-working-box-style2 .text-holder .title {
+  position: relative;
+  display: block;
+  font-family: "Rubik", sans-serif;
+}
+.single-working-box-style2 .text-holder .title h3 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 70px;
+  font-weight: 600;
+  z-index: 1;
+  font-family: "Rubik", sans-serif;
+}
+.single-working-box-style2 .text-holder .title .count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #2d2e32;
+  font-size: 100px;
+  line-height: 70px;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  z-index: -1;
+}
+.single-working-box-style2 .overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 300ms ease 100ms;
+}
+.single-working-box-style2 .overlay-content .box {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.single-working-box-style2 .overlay-content .box .inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.single-working-box-style2 .overlay-content .icon-holder {
+  margin: 0 auto 50px;
+  border: 2px solid var(--primary-color);
+  background: var(--primary-color);
+}
+.icon-architecture-and-city::before {
+  content: "\e915";
+}
+.single-working-box-style2 .read-more a span::before {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background: var(--primary-color);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 200ms ease 100ms;
+}
+.working-style2-area::before {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  z-index: -1;
+}
+.work-data {
+  position: relative;
+}
+.icon-holder i {
+  font-size: 56px;
+  color: white;
+}
+.single-working-box-style2:hover .img-holder img {
+  transform: scale(1.2);
+}
+.single-working-box-style2:hover .static-content {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: all 900ms ease 100ms;
+}
+.single-working-box-style2:hover .overlay-content {
+  opacity: 1;
+  transform: translateY(-10px);
+  transition: all 900ms ease 300ms;
+}
+.btn-one {
+  position: relative;
+  display: inline-block;
+  background: var(--primary-color);
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 60px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Rubik', sans-serif;
+  padding: 0 30px 0;
+  transition: all 500ms ease;
+}
+.working-style-bottom {
+  position: absolute;
+  bottom: 65px;
+  left: 45%;
+}
+.btn-one:hover {
+  color: #ffffff;
+  background: #27282c;
+}
+.text-holder p {
+  color: #ddd;
+}

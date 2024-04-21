@@ -2301,8 +2301,9 @@ img.testimonial-img {
 }
 
 .gallery-overlay-text {
-  color: white;
+  color: #FAB207;
   font-size: 20px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .gallery .gallery-item img {
