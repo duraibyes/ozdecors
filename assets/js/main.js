@@ -158,7 +158,7 @@
   });
 
   new Swiper(".home-swiper", {
-    speed: 1000,
+    speed: 2000,
     loop: true,
     autoplay: {
       delay: 10000,
@@ -179,6 +179,10 @@
       el: ".swiper-pagination",
       type: "bullets",
       clickable: true,
+      autoplay: {
+        delay: 10000, // Bullets change every second
+        disableOnInteraction: false,
+    },
     },
     navigation: {
       nextEl: ".swiper-button-next",
