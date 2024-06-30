@@ -535,7 +535,7 @@ section#electrical .we-content {
 }
 
 .why-choose .icon-box .icon i {
-  font-size: 36px;
+  font-size: 54px;
   transition: 0.5s;
   position: relative;
 }
@@ -577,8 +577,8 @@ section#electrical .we-content {
   color: #47aeff;
 }
 
-.why-choose .iconbox-blue:hover .icon i {
-  color: #fff;
+.why-choose .iconbox-blue:hover .icon i, .fa:hover, .fas:hover {
+  color: #FF5722 !important;
 }
 
 .why-choose .iconbox-blue:hover .icon path {
