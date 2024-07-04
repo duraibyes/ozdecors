@@ -17,7 +17,11 @@
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
-
+        <style>
+            .gallery { display: none; }
+            .gallery.active { display: block; }
+            .gallery-tab li.active { font-weight: bold; }
+        </style>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -67,12 +71,20 @@
                 </div>
             </div>
         </section><!-- End Breadcrumbs -->
-        <!-- ======= Gallery Section ======= -->
-        <section id="kitchen" class="gallery">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul type="none" class="gallery-tab">
+                    <li class="active" data-target="kitchen">KITCHEN INTERIORS</li>
+                    <li data-target="interior">INTERIOR DESIGN</li>
+                    <li data-target="wardrobe">WARDROBES</li>
+                    <li data-target="dressing">DRESSING TABLES</li>
+                    <li data-target="workstations">MODULAR WORK-STATIONS</li>
+                    <li data-target="falseceiling">FALSE CEILING</li>
+                </ul>
+            </div>
+        </div>
+        <div id="kitchen" class="gallery active">
             <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Kitchen Interiors</h2>
-                </div>
                 <div class="row g-0" data-aos="fade-left">
                     <div class="col-md-4 col-sm-6">
                         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
@@ -277,14 +289,12 @@
                     
                 </div>
             </div>
-        </section><!-- End Gallery Section -->
-        <section id="wardrobe" class="gallery">
+        </div>
+        <!-- ======= Gallery div ======= -->
+       <!-- End Gallery div -->
+        <div id="wardrobe" class="gallery">
             <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Wardrobes Interiors</h2>
-                </div>
                 <div class="row g-0" data-aos="fade-left">
-                  
                     <div class="col-md-4 col-sm-6">
                         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
                             <a href="assets/img/whatsapp/wr/wr1.jpeg"
@@ -612,12 +622,9 @@
 
                 </div>
             </div>
-        </section><!-- End Gallery Section -->
-        <section id="interior" class="gallery">
+        </div><!-- End Gallery div -->
+        <div id="interior" class="gallery">
             <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Interior Designs</h2>
-                </div>
                 <div class="row g-0" data-aos="fade-left">
                     <div class="col-md-4 col-sm-6">
                         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
@@ -906,102 +913,10 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Gallery Section -->
-        <section id="wallpainting" class="gallery">
+        </div><!-- End Gallery div -->
+      
+        <div id="dressing" class="gallery">
             <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Wall Paintings</h2>
-                </div>
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/gallery/painting/wp1.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp1.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-                            <a href="assets/img/gallery/painting/wp2.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp2.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-                            <a href="assets/img/gallery/painting/wp3.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp3.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-                            <a href="assets/img/gallery/painting/wp4.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp4.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-                            <a href="assets/img/gallery/painting/wp5.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp5.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/gallery/painting/wp6.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp6.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-                            <a href="assets/img/gallery/painting/wp7.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp7.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-                            <a href="assets/img/gallery/painting/wp8.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp8.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-                            <a href="assets/img/gallery/painting/wp9.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/painting/wp9.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- End Gallery Section -->
-        <section id="dressing" class="gallery">
-            <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Dressing Table</h2>
-                </div>
                 <div class="row g-0" data-aos="fade-left">
                     <div class="col-md-4 col-sm-6">
                         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
@@ -1104,102 +1019,10 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Gallery Section -->
-        <section id="electrical" class="gallery">
+        </div><!-- End Gallery div -->
+        
+        <div id="workstations" class="gallery">
             <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Electricals</h2>
-                </div>
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/gallery/electrical/el1.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el1.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-                            <a href="assets/img/gallery/electrical/el2.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el2.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-                            <a href="assets/img/gallery/electrical/el3.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el3.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-                            <a href="assets/img/gallery/electrical/el4.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el4.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-                            <a href="assets/img/gallery/electrical/el5.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el5.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/gallery/electrical/el6.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el6.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-                            <a href="assets/img/gallery/electrical/el7.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el7.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-                            <a href="assets/img/gallery/electrical/el8.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el8.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-                            <a href="assets/img/gallery/electrical/el9.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/electrical/el9.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- End Gallery Section -->
-        <section id="workstations" class="gallery">
-            <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Modular Workstations</h2>
-                </div>
                 <div class="row g-0" data-aos="fade-left">
                     <div class="col-md-4 col-sm-6">
                         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
@@ -1284,12 +1107,9 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Gallery Section -->
-        <section id="falseceiling" class="gallery">
+        </div><!-- End Gallery div -->
+        <div id="falseceiling" class="gallery">
             <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>False Ceiling</h2>
-                </div>
                 <div class="row g-0" data-aos="fade-left">
                     <div class="col-md-4 col-sm-6">
                         <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
@@ -1419,43 +1239,7 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Gallery Section -->
-        <section id="airconditioner" class="gallery">
-            <div class="">
-                <div class="kitchen-title" data-aos="fade-up">
-                    <h2>Air Conditioners</h2>
-                </div>
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/ac/ac1.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/ac/ac1.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/ac/ac2.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/ac/ac2.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/ac/ac3.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/ac/ac3.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- End Gallery Section -->
+        </div><!-- End Gallery Section -->
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -1529,6 +1313,22 @@
             header.classList.add('black-bg');
             header.classList.remove('transparent');
           }
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.gallery-tab li');
+            const galleries = document.querySelectorAll('.gallery');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    galleries.forEach(gallery => gallery.classList.remove('active'));
+
+                    this.classList.add('active');
+                    document.getElementById(this.dataset.target).classList.add('active');
+                });
+            });
         });
       </script>
 </body>

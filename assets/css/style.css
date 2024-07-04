@@ -293,7 +293,14 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
-
+  .gallery-tab {
+    font-size: 11px;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .gallery-tab li {
+    padding: 2px 10px;
+  }
   .navbar ul {
     display: none;
   }
@@ -2294,6 +2301,8 @@ img.testimonial-img {
 .gallery .gallery-item {
   overflow: hidden;
   height: 100%;
+  padding: 1px;
+    border: 1px solid #f77a345e;
 }
 .gallery-item {
   position: relative;
@@ -2439,4 +2448,21 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .about-us .section-title h2 {
   color: var(--secondary-color);
+}
+
+
+.gallery-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+  font-weight: 800;
+  color: #918b8b;
+  cursor: pointer;
+}
+ul.gallery-tab .active {
+  color: #4d4643;
+  border-bottom: 1px solid #f77a34;
+  border-width: medium;
+  /* padding: 10px 0px; */
 }

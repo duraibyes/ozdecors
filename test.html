@@ -1,0 +1,27 @@
+<title>Get Place ID</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD15NHz2otC7DUX51jsUfhItx99Wrqu7Ac&libraries=places"></script>
+    <script>
+        function getPlaceId() {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            const request = {
+                query: 'OZONE DECORS, DHARASITH ENCLAVE, 23/6D, Ganesh Nagar 1st St, Velachery West, Chennai, Tamil Nadu 600042',
+                fields: ['place_id']
+            };
+            console.log('  request ', request)
+            service.findPlaceFromQuery(request, (results, status) => {
+                if (status === google.maps.places.PlacesServiceStatus.OK && results.length > 0) {
+                    const placeId = results[0].place_id;
+                    console.log('Place ID:', placeId);
+                    document.getElementById('placeId').innerText = 'Place ID: ' + placeId;
+                } else {
+                    console.error('Place ID not found');
+                    document.getElementById('placeId').innerText = 'Place ID not found';
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <button onclick="getPlaceId()">Get Place ID</button>
+    <p id="placeId"></p>
+</body>
