@@ -17,11 +17,19 @@
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
-        <style>
-            .gallery { display: none; }
-            .gallery.active { display: block; }
-            .gallery-tab li.active { font-weight: bold; }
-        </style>
+    <style>
+        .gallery {
+            display: none;
+        }
+
+        .gallery.active {
+            display: block;
+        }
+
+        .gallery-tab li.active {
+            font-weight: bold;
+        }
+    </style>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -35,8 +43,10 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/addon.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
-  <link href="assets/css/responsive.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -49,7 +59,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="gallery.html"  class="active">Gallery</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
                     <li><a href="client.html">Clients</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -73,1173 +83,14 @@
         </section><!-- End Breadcrumbs -->
         <div class="row">
             <div class="col-sm-12">
-                <ul type="none" class="gallery-tab">
-                    <li class="active" data-target="kitchen">KITCHEN INTERIORS</li>
-                    <li data-target="interior">INTERIOR DESIGN</li>
-                    <li data-target="wardrobe">WARDROBES</li>
-                    <li data-target="dressing">DRESSING TABLES</li>
-                    <li data-target="workstations">MODULAR WORK-STATIONS</li>
-                    <li data-target="falseceiling">FALSE CEILING</li>
+                <ul type="none" class="gallery-tab" id="gallery_tab">
                 </ul>
             </div>
         </div>
-        <div id="kitchen" class="gallery active">
-            <div class="">
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/k/k1.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k1.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-                            <a href="assets/img/gallery/kitchens/img1.jpg" class="gallery-lightbox">
-                                <img src="assets/img/gallery/kitchens/img1.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-                            <a href="assets/img/whatsapp/k/k2.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k2.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-                            <a href="assets/img/whatsapp/k/k3.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k3.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-                            <a href="assets/img/whatsapp/k/k4.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k4.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k5.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k5.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k6.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k6.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k7.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k7.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k8.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k8.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k9.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k9.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k10.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k10.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k11.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k11.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k12.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k12.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k13.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k13.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k5.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k5.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k14.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k14.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k15.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k15.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k16.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k16.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k17.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k17.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k18.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k18.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k19.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k19.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k20.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k20.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k21.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k21.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k23.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k23.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k24.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k24.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k25.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k25.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k26.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k26.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/whatsapp/k/k27.jpeg" class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/k/k27.jpeg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
+        <div class="gallery active">
+            <div class="row" id="tab_content"></div>
         </div>
-        <!-- ======= Gallery div ======= -->
-       <!-- End Gallery div -->
-        <div id="wardrobe" class="gallery">
-            <div class="">
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr1.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr1.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr2.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr2.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr3.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr3.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr4.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr4.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr5.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr5.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr6.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr6.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr7.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr7.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr8.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr8.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr9.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr9.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr10.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr10.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr11.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr11.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr12.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr12.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr13.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr13.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr14.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr14.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr15.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr15.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr16.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr16.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr17.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr17.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr18.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr18.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr19.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr19.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr20.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr20.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr21.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr21.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr22.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr22.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr23.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr23.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr24.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr24.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr25.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr25.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr26.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr26.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr27.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr27.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr28.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr28.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr29.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr29.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr30.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr30.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr31.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr31.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr32.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr32.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr33.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr33.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr34.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr34.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr35.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr35.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/wr/wr36.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/wr/wr36.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </div><!-- End Gallery div -->
-        <div id="interior" class="gallery">
-            <div class="">
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior1.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior1.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior2.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior2.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior3.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior3.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior4.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior4.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior5.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior5.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior6.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior6.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior7.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior7.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior8.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior8.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior9.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior9.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior10.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior10.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div><div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior11.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior11.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior12.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior12.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior13.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior13.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior14.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior14.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior15.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior15.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior16.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior16.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior17.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior17.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior18.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior18.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior19.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior19.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior20.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior20.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior21.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior21.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior22.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior22.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior23.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior23.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior24.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior24.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior25.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior25.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior26.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior26.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div><div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior27.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior27.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior28.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior28.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior29.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior29.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior30.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior30.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div><div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior31.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior31.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/interior/interior32.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/interior/interior32.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Gallery div -->
-      
-        <div id="dressing" class="gallery">
-            <div class="">
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt1.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt1.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt2.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt2.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt3.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt3.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt4.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt4.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt5.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt5.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt6.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt6.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt7.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt7.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt8.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt8.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt9.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt9.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt10.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt10.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/dt/dt11.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/dt/dt11.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Gallery div -->
-        
-        <div id="workstations" class="gallery">
-            <div class="">
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/gallery/workstation/ws1.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws1.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-                            <a href="assets/img/gallery/workstation/ws2.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws2.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-                            <a href="assets/img/gallery/workstation/ws3.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws3.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4  col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-                            <a href="assets/img/gallery/workstation/ws4.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws4.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-                            <a href="assets/img/gallery/workstation/ws5.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws5.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="assets/img/gallery/workstation/ws6.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws6.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-                            <a href="assets/img/gallery/workstation/ws7.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws7.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-                            <a href="assets/img/gallery/workstation/ws8.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws8.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-                            <a href="assets/img/gallery/workstation/ws9.jpg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/gallery/workstation/ws9.jpg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Gallery div -->
-        <div id="falseceiling" class="gallery">
-            <div class="">
-                <div class="row g-0" data-aos="fade-left">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc1.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc1.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc2.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc2.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc3.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc3.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc4.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc4.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc5.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc5.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc6.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc6.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc7.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc7.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc8.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc8.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc9.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc9.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc10.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc10.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc11.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc11.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc12.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc12.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc13.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc13.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="assets/img/whatsapp/fc/fc14.jpeg"
-                                class="gallery-lightbox">
-                                <img src="assets/img/whatsapp/fc/fc14.jpeg" alt=""
-                                    class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Gallery Section -->
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -1254,7 +105,7 @@
                             Velachery west, Velachery, Chennai - 600 042. <br><br>
                             <strong>Phone:</strong>+91 97890 66882<br>
                             <strong>Email:</strong> ozonedecors@yahoo.co.in<br>
-                          </p>
+                        </p>
                     </div>
 
                     <div class="col-lg-4 col-md-6 footer-links">
@@ -1303,34 +154,87 @@
     <script src="assets/js/main.js"></script>
     <script>
         window.addEventListener('scroll', function () {
-          var header = document.getElementById('header');
-          var heroSection = document.getElementById('main');
-    
-          if (window.scrollY > heroSection.clientHeight) {
-            header.classList.add('transparent');
-            header.classList.remove('black-bg');
-          } else {
-            header.classList.add('black-bg');
-            header.classList.remove('transparent');
-          }
+            var header = document.getElementById('header');
+            var heroSection = document.getElementById('main');
+
+            if (window.scrollY > heroSection.clientHeight) {
+                header.classList.add('transparent');
+                header.classList.remove('black-bg');
+            } else {
+                header.classList.add('black-bg');
+                header.classList.remove('transparent');
+            }
         });
 
+        function getCategoriesList() {
+            const galleryTab = document.getElementById('gallery_tab');
+            fetch('admin/api_categories.php')
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data); // Output retrieved categories to console
+                    data.forEach((item, index) => {
+                        let li = document.createElement('li');
+                        li.textContent = item.name;
+                        li.setAttribute('data-target', item.id);
+                        if (index === 0) {
+                            li.classList.add('active');
+                        }
+                        li.addEventListener('click', () => {
+                            switchCategory(item.id);
+                        });
+                        galleryTab.appendChild(li);
+                    });
+                    getGalleryImages(data[0].id);
+                })
+                .catch(error => console.error('Error fetching categories:', error));
+        }
 
-        document.addEventListener('DOMContentLoaded', function() {
+        function getGalleryImages(category_id) {
+            const tabContent = document.getElementById('tab_content');
+            fetch(`admin/api_images.php?category_id=${category_id}`)
+                .then(response => response.json())
+                .then(images => {
+                    tabContent.innerHTML = ''; // Clear previous images
+                    if (images.length === 0) {
+                        tabContent.innerHTML = '<div class="text-center"><p>No images found for this category</p></div>';
+                    } else {
+                        images.forEach(image => {
+                            let divCol = document.createElement('div');
+                            divCol.classList.add('col-md-4', 'col-sm-6');
+                            let image_path = 'admin/' + image.img_path;
+                            divCol.innerHTML = `
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="${image_path}" class="gallery-lightbox">
+                            <img src="${image_path}" alt="" class="img-fluid">
+                        </a>
+                    </div>`;
+                            tabContent.appendChild(divCol);
+                        });
+                    }
+                })
+                .catch(error => console.error('Error fetching images:', error));
+        }
+
+        function switchCategory(category_id) {
+            getGalleryImages(category_id);
+            // Remove active class from all tabs
             const tabs = document.querySelectorAll('.gallery-tab li');
-            const galleries = document.querySelectorAll('.gallery');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            // Add active class to the clicked tab
+            const activeTab = document.querySelector(`.gallery-tab li[data-target="${category_id}"]`);
+            if (activeTab) {
+                activeTab.classList.add('active');
+            }
+        }
 
-            tabs.forEach(tab => {
-                tab.addEventListener('click', function() {
-                    tabs.forEach(t => t.classList.remove('active'));
-                    galleries.forEach(gallery => gallery.classList.remove('active'));
+        getCategoriesList();
+    </script>
 
-                    this.classList.add('active');
-                    document.getElementById(this.dataset.target).classList.add('active');
-                });
-            });
-        });
-      </script>
+    <div style="position: fixed;bottom: 66px;right: 9px;">
+        <a href="https://wa.me/919789066882" target="_blank">
+            <img src="assets/img/wai.png" alt="" style="width: 70px;">
+        </a>
+    </div>€
 </body>
 
 </html>
